@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ruchi/Desktop/Java basics/DataDrivenFramework">
+        <classes>
+            <class name="LoginTestCases.BothCorrect">
+                <methods>
+                    <include name="loginWithBothCorrect"/>
+                </methods>
+            </class>
+            <class name="LoginTestCases.BothIncorrect">
+                <methods>
+                    <include name="loginWithBothIncorrect"/>
+                </methods>
+            </class>
+            <class name="LoginTestCases.CorrectPassword">
+                <methods>
+                    <include name="loginWithCorrectPassword"/>
+                </methods>
+            </class>
+            <class name="LoginTestCases.CorrectUsername">
+                <methods>
+                    <include name="loginWithCorrectUsername"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
